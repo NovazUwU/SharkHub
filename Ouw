@@ -584,6 +584,10 @@ local Sharky1 = Tabs.Teleports:AddRightGroupbox('            [SERVERS]')
 local Shark2 = Tabs.Misc:AddRightGroupbox('       [Auto Collect Lily]')
 local Shark3 = Tabs.Misc:AddRightGroupbox('       [Some Stuffs]')
 
+LeftGroupBox:AddButton("Cracked By Novaz | gg/EEzVUN35R", function()
+    setclipboard("https://discord.gg/EEzVUN35R") 
+end)
+
 getgenv().Method = "Sword"
 LeftGroupBox:AddDropdown('KillAura', {
     Values = { 'Sword', 'Combat', 'Scythe', 'Claw', 'Fans' },
