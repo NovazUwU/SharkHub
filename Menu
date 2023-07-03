@@ -19,6 +19,10 @@ local Tabs = {
 
 local LeftGroupBox = Tabs.Main:AddLeftGroupbox('          [SPINS]')
 
+LeftGroupBox:AddButton("Cracked By Novaz | gg/EEzVUN35R", function()
+    setclipboard("https://discord.gg/EEzVUN35R") 
+end)
+
 LeftGroupBox:AddButton("Auto Daily Spin", function()
     while task.wait() do
         game:GetService("ReplicatedStorage"):WaitForChild("spins_thing_remote"):InvokeServer()
